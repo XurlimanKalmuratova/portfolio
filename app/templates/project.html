@@ -1,0 +1,17 @@
+{% extends 'home.html' %}
+{% load static %}
+
+{% block title %}
+    Project 
+{% endblock title %}
+
+{% block content %}
+    <div class="proj-phot">
+        <h2>{{ project.title}}</h2>
+        <img src="{{ project.image.url }}" alt="Project"/>
+        <p>{{ project.description}}</p>
+        
+        
+    </div>
+
+{% endblock %}    
