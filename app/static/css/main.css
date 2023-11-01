@@ -26,7 +26,7 @@ body {
 .port-img {
   align-items:center;
   padding-left: 800px;
-
+  top: 400px;
 }
 
 nav {
@@ -72,6 +72,7 @@ nav ul li a:hover::after{
 
 .header-text {
   margin-top: 20%;
+  margin-right: 40%;
   font-size: 30px;
 }
 
