@@ -21,6 +21,10 @@
                 <li><a href="{% url 'about' %}">About</a></li>
                 <li><a href="{% url 'project' %}">Projects</a></li>
                 <li><a href="{% url 'contact' %}">Contact</a></li>
+                <li><a href="{% url 'login' %}">Log In</a></li>
+               
+            
+                </span>
             </ul>
         </nav>
     </div>
@@ -28,9 +32,17 @@
 {% block content %}    
 <div class="header-text">
     <h1>Hi, I'm <span>Xurliman</span> <br> Kalmuratova</h1>
-    <img class="port-img" src="{% static 'images/phot.png' %}" alt="" />
 </div>
+
+<div class="port-img2">
+    <img class="port-img" src="{% static 'images/photo.png' %}" alt="" />
+</div>
+
+
+
 {% endblock %}  
+
+
 
 
 

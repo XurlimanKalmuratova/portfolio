@@ -22,13 +22,6 @@ body {
 
 
 
-
-.port-img {
-  align-items:center;
-  padding-left: 800px;
-  top: 400px;
-}
-
 nav {
   display: flex;
   align-items: center;
@@ -71,16 +64,26 @@ nav ul li a:hover::after{
 }
 
 .header-text {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-top: 20%;
-  margin-right: 40%;
+  margin-right: 10%;
   font-size: 30px;
+  width: 40%;
+  float: left;
 }
 
 .header-text h1 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 60px;
   margin-top: 20px;
 
 }
+
+.port-img2 {
+  width: 50%;
+  float: right;
+}
+
 
 .header-text h1 span {
   color: #040451;
@@ -88,6 +91,7 @@ nav ul li a:hover::after{
 #about {
   padding: 80px 0;
   color: black;
+  
 }
 
 .row {
@@ -97,20 +101,25 @@ nav ul li a:hover::after{
 }
 
 .about-col-1 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   flex-basis: 35%;
 }
 
 .about-col-1 img {
+  
   width: 100%;
   border-radius: 15px;
 
 }
 
 .about-col-2 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   flex-basis: 60%;
+  position: none;
 }
 
 .sub-title {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 60px;
   font-weight: 600;
   color: #040451;
@@ -123,9 +132,9 @@ nav ul li a:hover::after{
 
 .tab-links {
   margin-right: 50px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 18px;
   font-weight: 500;
-  cursor: pointer;
   position: relative;
 }
 
@@ -156,28 +165,110 @@ nav ul li a:hover::after{
 }
 
 
-.product{
+.product {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: rgb(255, 254, 254);
   margin-top: 150px;
 }
 .product img{
-  height: 300px;
-  width: 250px;
+  height: 200px;
+  width: 350px;
   padding-left: 70px;
 }
 .product h2 {
-  padding-left: 350px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-left: 450px;
   position: relative;
   top: 50px
 }
 .product p {
-  padding-left: 350px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-left: 450px;
   padding-right: 250px;
 
   position: relative;
-  bottom: 75px
+  bottom: 100px;
 }
 h1 {
   font-size: 32pt;
   padding-left: 50px;
+}
+
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container2 {
+  padding: 16px;
+  width: 20%;
+  padding-left: 500px;
+  
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+  padding-right: 350px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+ 
+}
+
+.container3 {
+  width: 20%;
+  padding-left: 500px;
 }

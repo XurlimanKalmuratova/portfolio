@@ -1,0 +1,28 @@
+{% extends 'home.html' %}
+{% load static %}
+{% block title %}
+    Log In 
+{% endblock %}
+
+{% block content %}
+    <form action="{% url 'project' %}" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <div class="container2">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+    
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+    
+        <button type="submit">Login</button>
+        <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+        </div>
+    
+        <div class="container" style="background-color:#f1f1f1">
+        <span class="psw">Don't have an account? <a href="{% url 'registration' %}">Sign Up</a></span>
+        </div>
+    </form>
+{% endblock %}

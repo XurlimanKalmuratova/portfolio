@@ -6,4 +6,6 @@ class ProjectsForm(forms.ModelForm):
         model = Projects
         fields = '__all__'
 
-
+class LoginForm(forms.Form):
+    username = forms.CharField()
+    password = forms.CharField(widget=forms.PasswordInput)

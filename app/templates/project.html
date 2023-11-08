@@ -6,12 +6,15 @@
 {% endblock title %}
 
 {% block content %}
-    <div class="proj-phot">
-        <h2>{{ project.title}}</h2>
-        <img src="{{ project.image.url }}" alt="Project"/>
-        <p>{{ project.description}}</p>
-        
-        
-    </div>
+    {% for project in projects %}
 
+            <div class="product">
+                <h2>{{ project.title}}</h2>
+                <img src="{{ project.image.url }}" alt="Project"/>
+                <p>{{ project.description}}</p>
+    
+          
+            
+        </div>
+    {% endfor %}
 {% endblock %}    
