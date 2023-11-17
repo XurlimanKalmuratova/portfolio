@@ -42,7 +42,7 @@ def login(request):
     context ={
         'form': form
     }      
-    return render(request, 'login.html', context)
+    return render(request, 'registration/login.html', context)
 
 def registration(request):
     return render(request, 'registration.html')
