@@ -122,7 +122,7 @@ nav ul li a:hover::after{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 60px;
   font-weight: 600;
-  color: #040451;
+  color:#000000;
 }
 
 .tab-titles {
@@ -211,13 +211,13 @@ input[type=text], input[type=password] {
 
 /* Set a style for all buttons */
 button {
-  background-color: #04AA6D;
+  background-color: #000000;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 100%;
+  width: 30%;
 }
 
 /* Add a hover effect for buttons */
@@ -249,6 +249,7 @@ img.avatar {
   padding: 16px;
   width: 20%;
   padding-left: 500px;
+  padding-right: 250px;
   
 }
 
@@ -271,4 +272,74 @@ span.psw {
 .container3 {
   width: 20%;
   padding-left: 500px;
+}
+
+
+/* Container for skill bars */
+.container- {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 70%; background-color: #000000;} /* Green */
+.css {width: 60%; background-color: #151a1e;} /* Blue */
+.js {width: 70%; background-color: #181818;} /* Red */
+
+.ent-1 {
+  padding-top: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color:#ffffff;
+  position: fixed; /* Set the navbar to fixed position */
+  bottom: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+  
+}
+
+
+.product-det img{
+  height: 200px;
+  width: 350px;
+  padding-left: 70px;
+}
+.product-det h2 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-left: 450px;
+  position: relative;
+  top: 40px
+}
+.product-det p {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-left: 450px;
+  padding-right: 250px;
+  position: relative;
+  bottom: 150px;
+}
+
+.des {
+  padding-right: 200px;
+}
+
+.producy-det a {
+  background-color: #000000;
 }

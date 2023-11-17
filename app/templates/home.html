@@ -20,8 +20,8 @@
                 <li><a href="{% url 'home' %}">Home</a></li>
                 <li><a href="{% url 'about' %}">About</a></li>
                 <li><a href="{% url 'project' %}">Projects</a></li>
-                <li><a href="{% url 'contact' %}">Contact</a></li>
                 <li><a href="{% url 'login' %}">Log In</a></li>
+                <li><a href="{% url 'create' %}">Create</a></li>
                
             
                 </span>
@@ -31,7 +31,9 @@
 </div>
 {% block content %}    
 <div class="header-text">
-    <h1>Hi, I'm <span>Xurliman</span> <br> Kalmuratova</h1>
+    <h1>Hi, I'm <span>Xurliman</span> <br> Kalmuratova &#128151;</h1>
+    
+    
 </div>
 
 <div class="port-img2">
@@ -40,11 +42,12 @@
 
 
 
+
 {% endblock %}  
 
-
-
-
+{% include 'contact.html' %}
+   
+  
 
 </body>
 </html>
